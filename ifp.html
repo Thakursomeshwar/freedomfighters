@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%; padding: 0%;}
+        body{
+            background-color: black;}
+        .all{
+            width: 100vw;
+            height: 100vh;
+           }    
+        h1{ margin: 10px;
+            color: orange;
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-align: center;
+            text-shadow: 1px 1px 1px white;
+            border: 2px solid orange;
+            border-radius: 30px;}
+        .ab{
+            border: 2px solid white;
+            border-radius: 30px;
+            margin: 10px;
+        }    
+        .title{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;}
+        .title::after{
+        content: " ";
+        color: aqua;
+        font-size: 1rem;
+        animation: name 20s infinite linear;}
+        @keyframes name{
+        0%{
+            content: "RAM PRASAD BISMIL";
+        }
+        30%{
+            content: "CHANDRASHEKHAR AZAD";
+        }
+        60%{
+            content: "BHAGAT SINGH";
+        }
+        100%{
+            content: "SUBHAS CHANDRA BOSE";
+        }
+        }
+        .cont{
+            width: 94vw;
+            margin: 10px;
+            border: 2px solid green;
+            border-radius: 30px; 
+            }
+        .photo{
+            margin-top: 20px;
+           width: 200px;
+           height: 300px;
+           border: 2px solid green;
+           background-position: center;
+           background-size: cover;
+           animation: photu 20s infinite linear;}
+        .photo::after{
+            background-image: url(https://images.moneycontrol.com/static-mcnews/2019/06/DustQEZVYAA46Z2-1-1.jpg?impolicy=website&width=770&height=431);
+        }
+        @keyframes photu{
+        0%{
+           background-image: url(https://images.moneycontrol.com/static-mcnews/2019/06/DustQEZVYAA46Z2-1-1.jpg?impolicy=website&width=770&height=431);
+        }
+        35%{
+           background-image: url(https://media.news9live.com/h-upload/2022/07/23/479895-azad.webp); 
+        }
+        65%{
+           background-image: url(https://www.india-a2z.com/images/bhagatsingh.jpg); 
+        }
+        100%{
+          background-image: url(https://bsmedia.business-standard.com/_media/bs/img/about-page/thumb/464_464/1611367363.jpg);  
+        }
+        }
+        .info{ height: 400px;
+           margin-top: 50px;
+           font-size: 1rem;
+        }
+        .info::after{
+          content: " ";
+          color: white;
+          font-size: 1rem;
+          animation: inf 20s infinite linear;
+        }
+        @keyframes inf{
+        0%{
+            content: "Ram Prasad Bismil(11 June 1897 — 19 December 1927) was an Indian poet, writer, revolutionary and an Indian freedom fighter ......";
+        }
+        30%{
+            content: "Chandra Shekhar Tiwari(23 July 1906 - 27 February 1931), popularly known as Chandra Shekhar Azad, was an Indian revolutionary who reorganised the Hindustan Republican Association (HRA)...";
+        }
+        60%{
+            content: "Bhagat Singh(27 September 1907 - 23 March 1931) who was an Indian freedom fighter, participated in the mistaken murder of a junior British police officer in what was to be retaliation for the death of an Indian nationalist...";
+        }
+        100%{
+            content: "Subhas Chandra Bose(23 January 1897 - 18 August 1945), commonly known as Netaji, was an Indian nationalist...";
+        }
+    }
+    
+    </style>
+</head>
+<body>
+<div class="all">
+    <h1>INDIAN FREEDOM FIGHTERS</h1>
+    <h1>LEGEND <strike>DIE</strike> NEVER DIE</h1>
+    <div class="ab"> 
+    <span class="title"></span><br></div>
+    <div class="cont">
+    <center> <div class="photo"></div></center>
+    <div class="info">
+    </div>
+    </div>
+</div>
+</body>
+</html>
